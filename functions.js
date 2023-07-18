@@ -27,7 +27,9 @@ Calculator = {
 
 }
 
-function capitalize(){}
+function capitalize(string){
+  return string.toUpperCase()
+}
 
 module.exports = {stringLength, reverseString, Calculator, capitalize}
 
