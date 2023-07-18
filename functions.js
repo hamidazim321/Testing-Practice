@@ -27,5 +27,7 @@ Calculator = {
 
 }
 
-module.exports = {stringLength, reverseString, Calculator}
+function capitalize(){}
+
+module.exports = {stringLength, reverseString, Calculator, capitalize}
 

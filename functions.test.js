@@ -1,4 +1,4 @@
-const { reverseString, stringLength, Calculator } = require("./functions");
+const { reverseString, stringLength, Calculator, capitalize } = require("./functions");
 
 describe("stringLength", () => {
   describe("Valid Input and Output", () => {
@@ -36,5 +36,11 @@ describe('Calculator', ()=>{
 
   test('15/3 = 5', () => {
     expect(Calculator.divide(15,3)).toBe(5)
+  })
+})
+
+describe('capitalize', () => {
+  test('hamid capitalized is HAMID', () => {
+    expect(capitalize('hamid')).toBe('HAMID')
   })
 })
