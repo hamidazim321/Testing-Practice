@@ -1,0 +1,24 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "In this repository, I practice using the Jest library to practice TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamidazim321/Testing-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamidazim321/Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/hamidazim321/Testing-Practice#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
