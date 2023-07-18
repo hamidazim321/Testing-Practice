@@ -1,4 +1,12 @@
 module.exports = function stringLength(string){
-  return string.split("").length
+  const len = string.split("").length
+  if (len > 0 && len < 10){
+    return len
+  }
+  else {
+    throw new Error('String must be between 1 and 10 characters')
+  }
 }
+
+
 
